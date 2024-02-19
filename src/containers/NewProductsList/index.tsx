@@ -27,12 +27,12 @@ const NewProductsList = () => {
               </S.ProductName>
               <S.ProductWeight>2L</S.ProductWeight>
             </S.infoSection>
-            <S.BarraAcoes>
+            <S.QtdBar>
               <S.ProductPrice>£2.40</S.ProductPrice>
               <AddListBtn onClick={() => navigate('/')}>
                 Add to order
               </AddListBtn>
-            </S.BarraAcoes>
+            </S.QtdBar>
           </S.Card>
         </li>
         <li>
@@ -44,12 +44,12 @@ const NewProductsList = () => {
               </S.ProductName>
               <S.ProductWeight>2L</S.ProductWeight>
             </S.infoSection>
-            <S.BarraAcoes>
+            <S.QtdBar>
               <S.ProductPrice>£2.75</S.ProductPrice>
               <AddListBtn onClick={() => navigate('/')}>
                 Add to order
               </AddListBtn>
-            </S.BarraAcoes>
+            </S.QtdBar>
           </S.Card>
         </li>
         <li>
@@ -61,12 +61,12 @@ const NewProductsList = () => {
               </S.ProductName>
               <S.ProductWeight>1.136L</S.ProductWeight>
             </S.infoSection>
-            <S.BarraAcoes>
+            <S.QtdBar>
               <S.ProductPrice>£1.20</S.ProductPrice>
               <AddListBtn onClick={() => navigate('/')}>
                 Add to order
               </AddListBtn>
-            </S.BarraAcoes>
+            </S.QtdBar>
           </S.Card>
         </li>
         <li>
@@ -78,12 +78,12 @@ const NewProductsList = () => {
               </S.ProductName>
               <S.ProductWeight>500ml</S.ProductWeight>
             </S.infoSection>
-            <S.BarraAcoes>
+            <S.QtdBar>
               <S.ProductPrice>£1.25</S.ProductPrice>
               <AddListBtn onClick={() => navigate('/')}>
                 Add to order
               </AddListBtn>
-            </S.BarraAcoes>
+            </S.QtdBar>
           </S.Card>
         </li>
         <li>
@@ -95,12 +95,12 @@ const NewProductsList = () => {
               </S.ProductName>
               <S.ProductWeight>2L</S.ProductWeight>
             </S.infoSection>
-            <S.BarraAcoes>
+            <S.QtdBar>
               <S.ProductPrice>£2.25</S.ProductPrice>
               <AddListBtn onClick={() => navigate('/')}>
                 Add to order
               </AddListBtn>
-            </S.BarraAcoes>
+            </S.QtdBar>
           </S.Card>
         </li>
       </NewProductGrid>

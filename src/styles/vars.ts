@@ -8,10 +8,7 @@ export default {
   textBtnYellow: '#2d333a',
   textColor: '#303233',
   darkGrey: '#73787a',
-  green: '#00b894',
   red: '#d63031',
-  orange: '#e17055',
   black: '#2d3436',
-  grey: '#dfe6e9',
-  coral: '#00cec9'
+  grey: '#dfe6e9'
 }

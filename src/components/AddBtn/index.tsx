@@ -1,10 +1,10 @@
 import { IoAdd } from 'react-icons/io5'
-import { Circulo } from './styles'
+import { Btn } from './styles'
 
 const AddBtn = () => (
-  <Circulo to="/newitem">
+  <Btn to="/newitem">
     <IoAdd /> Add Item
-  </Circulo>
+  </Btn>
 )
 
 export default AddBtn

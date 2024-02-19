@@ -102,41 +102,14 @@ const productsSlice = createSlice({
   name: 'products',
   initialState,
   reducers: {
-    remover: (state, action: PayloadAction<number>) => {
+    remove: (state, action: PayloadAction<number>) => {
       state.itens = state.itens.filter(
         (product) => product.id !== action.payload
       )
-    },
-    editar: (state, action: PayloadAction<Product>) => {
-      const indexproduct = state.itens.findIndex(
-        (c) => c.id === action.payload.id
-      )
-
-      if (indexproduct >= 0) {
-        state.itens[indexproduct] = action.payload
-      }
-    },
-    cadastrar: (state, action: PayloadAction<Omit<Product, 'id'>>) => {
-      const productExiste = state.itens.find(
-        (product) =>
-          product.name.toLowerCase() === action.payload.name.toLowerCase()
-      )
-
-      if (productExiste) {
-        alert('Já existe um product com este nome')
-      } else {
-        const ultimoproduct = state.itens[state.itens.length - 1]
-
-        const productNovo = {
-          ...action.payload,
-          id: ultimoproduct ? ultimoproduct.id + 1 : 1
-        }
-        state.itens.push(productNovo)
-      }
     }
   }
 })
 
-export const { remover, editar, cadastrar } = productsSlice.actions
+export const { remove } = productsSlice.actions
 
 export default productsSlice.reducer

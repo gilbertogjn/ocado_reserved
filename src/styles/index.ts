@@ -1,7 +1,7 @@
 import styled, { createGlobalStyle } from 'styled-components'
 import vars from './vars'
 
-const EstiloGlobal = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
@@ -113,4 +113,4 @@ export const Container = styled.main`
   }
 `
 
-export default EstiloGlobal
+export default GlobalStyle

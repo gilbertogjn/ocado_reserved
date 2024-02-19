@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import vars from '../../styles/vars'
 
-export const Circulo = styled(Link)`
+export const Btn = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;

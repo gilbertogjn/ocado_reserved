@@ -1,4 +1,4 @@
-import BotaoAdd from '../../components/AddBtn'
+import AddBtn from '../../components/AddBtn'
 import SaveBtn from '../../components/SaveBtn'
 import ProductsList from '../../containers/ProductsList'
 import { HeaderBar, HeaderBarText, HeaderBarTitle } from '../../styles'
@@ -17,7 +17,7 @@ const Home = () => (
       </span>
     </HeaderBar>
     <ProductsList />
-    <BotaoAdd />
+    <AddBtn />
   </>
 )
 

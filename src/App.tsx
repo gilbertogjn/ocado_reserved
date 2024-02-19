@@ -1,7 +1,7 @@
 import { Provider } from 'react-redux'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import EstiloGlobal, { Container, MainTitle, Subtitle } from './styles'
+import GlobalStyle, { Container, MainTitle, Subtitle } from './styles'
 
 import store from './store'
 import Home from './pages/Home'
@@ -26,7 +26,7 @@ const rotas = createBrowserRouter([
 function App() {
   return (
     <Provider store={store}>
-      <EstiloGlobal />
+      <GlobalStyle />
       <MainTitle>Ocado Reserved</MainTitle>
       <Subtitle>Lorem ipsum dolor siamet</Subtitle>
       <Container>
